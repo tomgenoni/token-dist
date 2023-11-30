@@ -4,7 +4,6 @@
   "name": "@tomgenoni/token-dist",
   "version": "0.0.1",
   "description": "Minimal demonstration of how tokens are stored, transformed, and published for use in various platforms.",
-  "main": "index.js",
   "files": [
     "dist/**"
   ],

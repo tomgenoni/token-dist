@@ -1,0 +1,17 @@
+{
+  "source": ["src/*.json"],
+  "platforms": {
+    "css": {
+      "prefix": "mar",
+      "transformGroup": "css",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "filter": "filterPrimitives",
+          "destination": "mar-light.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}

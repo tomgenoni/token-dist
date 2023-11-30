@@ -16,7 +16,7 @@ StyleDictionary.registerFilter({
   name: 'componentsOnly',
   matcher: function (token) {
     console.log(token.filePath);
-    if (token.filePath.includes('tokens/comp')) {
+    if (token.filePath.includes('src/component')) {
       return token;
     }
   },
@@ -66,27 +66,27 @@ const dark = StyleDictionary.extend({
 dark.cleanAllPlatforms();
 dark.buildAllPlatforms();
 
-// const component = StyleDictionary.extend({
-//   source: ['src/component.json'],
-//   include: ['src/light.json'],
-//   platforms: {
-//     css: {
-//       prefix: 'mar',
-//       transformGroup: 'css',
-//       buildPath: 'dist/',
-//       files: [
-//         {
-//           filter: 'componentsOnly',
-//           destination: 'mar-component.css',
-//           format: 'css/variables',
-//           options: {
-//             outputReferences: true,
-//           },
-//         },
-//       ],
-//     },
-//   },
-// });
+const component = StyleDictionary.extend({
+  source: ['src/component.json'],
+  include: ['src/light.json', 'src/primitive.json'],
+  platforms: {
+    css: {
+      prefix: 'mar',
+      transformGroup: 'css',
+      buildPath: 'dist/',
+      files: [
+        {
+          filter: 'componentsOnly',
+          destination: 'mar-component.css',
+          format: 'css/variables',
+          options: {
+            outputReferences: true,
+          },
+        },
+      ],
+    },
+  },
+});
 
-// component.cleanAllPlatforms();
-// component.buildAllPlatforms();
+component.cleanAllPlatforms();
+component.buildAllPlatforms();

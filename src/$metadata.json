@@ -1,6 +1,6 @@
 {
   "tokenSetOrder": [
-    "global",
+    "primitive",
     "light",
     "dark",
     "component"

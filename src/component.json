@@ -2,7 +2,7 @@
   "comp": {
     "box": {
       "bg": {
-        "value": "{bg.muted}",
+        "value": "#EFEDF2",
         "type": "color"
       }
     }

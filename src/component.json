@@ -1,0 +1,10 @@
+{
+  "comp": {
+    "box": {
+      "bg": {
+        "value": "{bg.muted}",
+        "type": "color"
+      }
+    }
+  }
+}

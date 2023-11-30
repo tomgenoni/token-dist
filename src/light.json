@@ -1,0 +1,8 @@
+{
+  "bg": {
+    "muted": {
+      "value": "{neutral.200}",
+      "type": "color"
+    }
+  }
+}

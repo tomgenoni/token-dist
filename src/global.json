@@ -1,1 +1,12 @@
-{}
+{
+  "neutral": {
+    "200": {
+      "value": "#EFEDF2",
+      "type": "color"
+    },
+    "800": {
+      "value": "#3A3247",
+      "type": "color"
+    }
+  }
+}

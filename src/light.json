@@ -7,7 +7,7 @@
   },
   "bg": {
     "muted": {
-      "value": "{neutral.200}",
+      "value": "{red.200}",
       "type": "color"
     }
   }

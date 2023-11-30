@@ -9,6 +9,16 @@
       "type": "color"
     }
   },
+  "red": {
+    "200": {
+      "value": "#EFB0A4",
+      "type": "color"
+    },
+    "800": {
+      "value": "#6C2213",
+      "type": "color"
+    }
+  },
   "white": {
     "value": "#fff",
     "type": "color"

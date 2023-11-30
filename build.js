@@ -15,7 +15,6 @@ StyleDictionary.registerFilter({
 StyleDictionary.registerFilter({
   name: 'componentsOnly',
   matcher: function (token) {
-    console.log(token.filePath);
     if (token.filePath.includes('src/component')) {
       return token;
     }

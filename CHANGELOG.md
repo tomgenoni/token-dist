@@ -1,5 +1,17 @@
 # @tomgenoni/token-dist
 
+## 0.2.1
+
+### Patch Changes
+
+- Testing output
+
+## 0.2.0
+
+### Minor Changes
+
+- Changing background color
+
 ## 0.1.0
 
 ### Minor Changes

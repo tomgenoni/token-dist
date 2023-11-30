@@ -6,6 +6,11 @@
     "selectedTokenSets": {
       "global": "source",
       "light": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:1:2",
+    "$figmaModeId": "1:0",
+    "$figmaVariableReferences": {
+      "bg.muted": "5330b48581b7f7d7a32e4aad4b44e9168743c8e4"
     }
   },
   {
@@ -15,6 +20,11 @@
     "selectedTokenSets": {
       "global": "source",
       "dark": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:1:4",
+    "$figmaModeId": "1:1",
+    "$figmaVariableReferences": {
+      "bg.muted": "c7efd52373dd27b01521e4dd7a4c45c662827100"
     }
   }
 ]

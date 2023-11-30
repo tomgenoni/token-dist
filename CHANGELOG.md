@@ -1,5 +1,11 @@
 # @tomgenoni/token-dist
 
+## 0.2.2
+
+### Patch Changes
+
+- Another test
+
 ## 0.2.1
 
 ### Patch Changes

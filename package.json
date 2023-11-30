@@ -2,7 +2,7 @@
   "author": "Tom Genoni",
   "license": "ISC",
   "name": "@tomgenoni/token-dist",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Minimal demonstration of how tokens are stored, transformed, and published for use in various platforms.",
   "files": [
     "dist/**"
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/tomgenoni/token-dist.git"
+  },
+  "scripts": {
+    "postinstall": "node build.js"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

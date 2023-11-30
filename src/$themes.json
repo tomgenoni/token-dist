@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "4be324ea45dfea09e1fe80ea8a67f5d9fdc7f3a8",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitive": "source",
+      "light": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:1:21",
+    "$figmaModeId": "1:6",
+    "$figmaVariableReferences": {
+      "fg.base": "55607004f41322856f56eb04e18a4827bccacf40",
+      "bg.muted": "dee3e9ce06fd0f0c3480e58eafbb49351e43e23a"
+    },
+    "group": "usage"
+  },
+  {
+    "id": "1dbfde5c4155af2e1b304bebb8eaa4e68aabe968",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "dark": "enabled",
+      "primitive": "source"
+    },
+    "$figmaCollectionId": "VariableCollectionId:1:21",
+    "$figmaModeId": "1:7",
+    "$figmaVariableReferences": {
+      "fg.base": "55607004f41322856f56eb04e18a4827bccacf40",
+      "bg.muted": "dee3e9ce06fd0f0c3480e58eafbb49351e43e23a"
+    },
+    "group": "usage"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "fg": {
+    "base": {
+      "value": "#fff",
+      "type": "color"
+    }
+  },
+  "bg": {
+    "muted": {
+      "value": "#3A3247",
+      "type": "color"
+    }
+  }
+}

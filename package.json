@@ -1,0 +1,19 @@
+{
+  "name": "@tomgenoni/token-dist",
+  "version": "0.0.0",
+  "description": "Minimal demonstration of how tokens are stored, transformed, and published for use in various platforms.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomgenoni/token-dist.git"
+  },
+  "scripts": {
+    "postinstall": "node build.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@tokens-studio/sd-transforms": "^0.9.2"
+  }
+}

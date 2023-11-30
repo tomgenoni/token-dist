@@ -3,6 +3,22 @@ const StyleDictionary = require('style-dictionary');
 
 registerTransforms(StyleDictionary);
 
+const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
+
+// Adds a class wrapper around the dark theme variables.
+StyleDictionary.registerFormat({
+  name: 'css/darkThemeCustomFormat',
+  formatter: function ({ dictionary, file, options }) {
+    const { outputReferences } = options;
+    return (
+      fileHeader({ file }) +
+      '.dark {\n' +
+      formattedVariables({ format: 'css', dictionary, outputReferences }) +
+      '\n}\n'
+    );
+  },
+});
+
 // Removes any tokens that are in the core.json file
 StyleDictionary.registerFilter({
   name: 'filterPrimitives',
@@ -55,7 +71,7 @@ const dark = StyleDictionary.extend({
         {
           filter: 'filterPrimitives',
           destination: 'mar-dark.css',
-          format: 'css/variables',
+          format: 'css/darkThemeCustomFormat',
         },
       ],
     },

@@ -3,7 +3,6 @@
     "primitive",
     "light",
     "dark",
-    "component",
-    "global"
+    "component"
   ]
 }

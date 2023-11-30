@@ -1,8 +1,12 @@
 {
   "comp": {
     "box": {
+      "fg": {
+        "value": "{fg.base}",
+        "type": "color"
+      },
       "bg": {
-        "value": "#EFEDF2",
+        "value": "{bg.muted}",
         "type": "color"
       }
     }

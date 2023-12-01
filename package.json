@@ -2,7 +2,7 @@
   "author": "Tom Genoni",
   "license": "ISC",
   "name": "@tomgenoni/token-dist",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Minimal demonstration of how tokens are stored, transformed, and published for use in various platforms.",
   "repository": {
     "type": "git",

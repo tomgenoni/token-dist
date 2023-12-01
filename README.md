@@ -23,8 +23,6 @@ This is a minimal demonstration of how design tokens are created and managed in 
   }
 ```
 
-
-
 ## Steps
 
 This is a simplified illustration of the data flow from Tokens Studio to GitHub, and the consuming applications: Figma, Web, iOS, Android, etc.

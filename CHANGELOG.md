@@ -1,5 +1,11 @@
 # @tomgenoni/token-dist
 
+## 0.2.6
+
+### Patch Changes
+
+- 24dd9ee: Changing the background color of the box component
+
 ## 0.2.5
 
 ### Patch Changes

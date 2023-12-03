@@ -1,13 +1,13 @@
 {
   "fg": {
     "base": {
-      "value": "{white}",
+      "value": "{neutral.white}",
       "type": "color"
     }
   },
   "bg": {
     "muted": {
-      "value": "{red.800}",
+      "value": "{neutral.800}",
       "type": "color"
     }
   }

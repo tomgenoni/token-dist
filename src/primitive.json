@@ -7,6 +7,14 @@
     "800": {
       "value": "#3A3247",
       "type": "color"
+    },
+    "white": {
+      "value": "#fff",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000",
+      "type": "color"
     }
   },
   "red": {
@@ -18,13 +26,5 @@
       "value": "#6C2213",
       "type": "color"
     }
-  },
-  "white": {
-    "value": "#fff",
-    "type": "color"
-  },
-  "black": {
-    "value": "#000",
-    "type": "color"
   }
 }

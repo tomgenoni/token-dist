@@ -6,7 +6,7 @@ This is a minimal demonstration of how design tokens are created and managed in 
 
 1. For the sake of simplicity this example only publishes CSS files. The build step can be updated to include as many platforms and transforming options as needed. 
 2. The transformations use https://github.com/tokens-studio/sd-transforms, which uses [Style Dictionary](https://amzn.github.io/style-dictionary/#/quick_start) and adds a few Token Studio specific helper transformations. 
-3. We are publishing to [GitHub Packages](https://github.com/features/packages) for this demo. We could also use npm if we wanted. GitHub Packages has the advantage of allowing private packages at no extra cost.
+3. We are publishing to [GitHub Packages](https://github.com/features/packages) for this demo. We could also use npm but GitHub Packages has the advantage of allowing private packages at no extra cost.
 
 ## Requirements
 
@@ -52,5 +52,5 @@ The following describes the process of making changes to the tokens and then dis
 ## Future enhancements
 
 1. Currently the entire repository is published in directory but ideally only the `dist` directory, the `CHANGELOG.md` and `package.json` would exist in the `node_modules` folder.
-2. When a new version is published, a GitHub Action can be triggered that automatically opens PRs with the updated package to any consuming applications. 
+2. When changes have been merged into `main`, a GitHub Action can be triggered that automatically opens a separate PR containing all the changes. This means multiple changes can be batched together. This is a [good description](https://davistobias.com/articles/adding-changeset/) of one such process. 
 3. Establish a detailed step-by-step guide to avoid ambiguity, how to recover from mistakes, etc. 

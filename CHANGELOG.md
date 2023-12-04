@@ -1,5 +1,11 @@
 # @tomgenoni/token-dist
 
+## 0.2.7
+
+### Patch Changes
+
+- 675edc7: Changing the background color to red
+
 ## 0.2.6
 
 ### Patch Changes

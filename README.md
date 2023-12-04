@@ -51,6 +51,6 @@ The following describes the process of making changes to the tokens and then dis
 
 ## Future enhancements
 
-1. Currently the entire repository is published in directory but ideally only the `dist` directory, the `CHANGELOG.md` and `package.json` would exist in the `node_modules` folder.
+1. Currently the entire repository is published but ideally only the `dist` directory would be, the `CHANGELOG.md` and `package.json` would exist in the `node_modules` folder.
 2. When changes have been merged into `main`, a GitHub Action can be triggered that automatically opens a separate PR containing all the changes. This means multiple changes can be batched together. This is a [good description](https://davistobias.com/articles/adding-changeset/) of one such process. 
 3. Establish a detailed step-by-step guide to avoid ambiguity, how to recover from mistakes, etc. 
